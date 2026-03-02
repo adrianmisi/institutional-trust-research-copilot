@@ -12,5 +12,5 @@ __pycache__/
 .env.local
 
 # Ignore vector databases (they can be re-ingested)
-faiss_index/
-chroma_db/
+# faiss_index/
+# chroma_db/
