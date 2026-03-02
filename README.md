@@ -62,11 +62,11 @@ streamlit run app/main.py
 
 ## 6. Technical Details
 
-### Chunking Comparison Table
 | Configuration | Chunk Size | Overlap | Total Chunks | Use Case |
 |---|---|---|---|---|
-| **Configuration 1** | 256 tokens | 25 tokens | - | Factual retrieval |
-| **Configuration 2** | 1024 tokens | 100 tokens | ~3400 | Complex synthesis & multi-part questions (Default) |
+| **Small** | 256 tokens | 25 tokens | ~2000 | Factual Q&A, naming entities |
+| **Medium** | 512 tokens | 50 tokens | ~1000 | Balanced retrieval (Standard) |
+| **Large** | 1024 tokens | 100 tokens | ~500 | Complex reasoning & full context |
 
 ### Prompt Comparison Table
 | Strategy | Best For | Latency | Token Usage | Citation Quality |
