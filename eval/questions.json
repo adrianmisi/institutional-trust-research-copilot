@@ -1,0 +1,46 @@
+{
+    "questions": [
+        {
+            "id": "q1",
+            "type": "Factual",
+            "question": "What is the main argument made by Acemoglu, Johnson, and Robinson (2001) regarding colonial origins?",
+            "expected_concepts": ["mortality rates", "institutions", "economic performance"]
+        },
+        {
+            "id": "q2",
+            "type": "Factual",
+            "question": "According to Levitsky and Way (2002), what defines competitive authoritarianism?",
+            "expected_concepts": ["democratic rules", "authoritarian practices"]
+        },
+        {
+            "id": "q3",
+            "type": "Analytical",
+            "question": "How do Mishler and Rose's findings on political trust compare with Morris's findings on corruption in Mexico?",
+            "expected_concepts": ["post-Communist societies", "reciprocal relationship", "institutions"]
+        },
+        {
+            "id": "q4",
+            "type": "Analytical",
+            "question": "Why does Mainwaring (2023) argue that Latin America's democracies are stuck?",
+            "expected_concepts": ["stagnation", "causes"]
+        },
+        {
+            "id": "q5",
+            "type": "Synthesis",
+            "question": "Based on the provided papers, synthesize the impact of corruption on institutional trust and democratic quality in Latin America.",
+            "expected_concepts": ["corruption", "legitimacy", "trust", "Latin America"]
+        },
+        {
+            "id": "q6",
+            "type": "Synthesis",
+            "question": "How do structural economic factors and institutional design interact to affect electoral volatility?",
+            "expected_concepts": ["volatility", "institutions", "economy"]
+        },
+        {
+            "id": "q7",
+            "type": "Edge Case",
+            "question": "What does the literature say about the impact of quantum computing on electoral results in 19th century Europe?",
+            "expected_concepts": []
+        }
+    ]
+}

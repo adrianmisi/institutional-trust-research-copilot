@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+.venv/
+env/
+
+# Ignore pycache and Python artifacts
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore vector databases (they can be re-ingested)
+faiss_index/
+chroma_db/

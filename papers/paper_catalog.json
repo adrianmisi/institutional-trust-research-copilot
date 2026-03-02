@@ -1,0 +1,345 @@
+{
+    "papers": [
+        {
+            "id": "paper_001",
+            "title": "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "authors": [
+                "Acemoglu, D.",
+                "Johnson, S.",
+                "Robinson, J. A."
+            ],
+            "year": 2001,
+            "venue": "The American Economic Review",
+            "doi": "10.1257/aer.91.5.1369",
+            "filename": "Acemoglu_2001_ColonialOrigins.pdf",
+            "topics": [
+                "institutional trust",
+                "natural experiment"
+            ],
+            "abstract": "We exploit differences in European mortality rates to estimate the effect of institutions on economic performance..."
+        },
+        {
+            "id": "paper_002",
+            "title": "Social and Unsocial Capital: A Review Essay of Robert Putnam's Making Democracy Work",
+            "authors": [
+                "Levi, M."
+            ],
+            "year": 1996,
+            "venue": "Politics & Society",
+            "doi": "10.1177/0032329296024001004",
+            "filename": "Levi_1996_SocialCapital.pdf",
+            "topics": [
+                "institutional trust",
+                "social capital"
+            ],
+            "abstract": "This essay reviews Robert Putnam's Making Democracy Work..."
+        },
+        {
+            "id": "paper_003",
+            "title": "Elections Without Democracy: The Rise of Competitive Authoritarianism",
+            "authors": [
+                "Levitsky, S.",
+                "Way, L. A."
+            ],
+            "year": 2002,
+            "venue": "Journal of Democracy",
+            "doi": "10.1353/jod.2002.0026",
+            "filename": "Levitsky_2002_Authoritarianism.pdf",
+            "topics": [
+                "quality of democracy",
+                "competitive authoritarianism",
+                "Latin America"
+            ],
+            "abstract": "In recent years, many regimes have combined democratic rules with authoritarian practices..."
+        },
+        {
+            "id": "paper_004",
+            "title": "What Are the Origins of Political Trust? Testing Institutional and Cultural Theories in Post-Communist Societies",
+            "authors": [
+                "Mishler, W.",
+                "Rose, R."
+            ],
+            "year": 2001,
+            "venue": "Comparative Political Studies",
+            "doi": "10.1177/0010414001034001002",
+            "filename": "Mishler_2001_TrustOrigins.pdf",
+            "topics": [
+                "institutional trust",
+                "political trust"
+            ],
+            "abstract": "Using survey data from post-Communist societies to test theories of political trust..."
+        },
+        {
+            "id": "paper_005",
+            "title": "Corruption and Trust: Theoretical Considerations and Evidence From Mexico",
+            "authors": [
+                "Morris, S. D."
+            ],
+            "year": 2010,
+            "venue": "Comparative Political Studies",
+            "doi": "10.1177/0010414009341203",
+            "filename": "Morris_2010_MexicoCorruption.pdf",
+            "topics": [
+                "institutional trust",
+                "corruption",
+                "Latin America",
+                "Mexico"
+            ],
+            "abstract": "Explores the reciprocal relationship between corruption and trust in Mexico..."
+        },
+        {
+            "id": "paper_006",
+            "title": "Delegative Democracy",
+            "authors": [
+                "O'Donnell, G."
+            ],
+            "year": 1994,
+            "venue": "Journal of Democracy",
+            "doi": "10.1353/jod.1994.0010",
+            "filename": "ODonell_1994_Delegative.pdf",
+            "topics": [
+                "quality of democracy",
+                "Latin America"
+            ],
+            "abstract": "Examines a new species of democracy found in recently democratized countries, particularly in Latin America..."
+        },
+        {
+            "id": "paper_007",
+            "title": "Party Systems and Electoral Volatility in Latin America: A Test of Economic, Institutional, and Structural Explanations",
+            "authors": [
+                "Roberts, K. M.",
+                "Wibbels, E."
+            ],
+            "year": 1999,
+            "venue": "American Political Science Review",
+            "doi": "10.2307/2585536",
+            "filename": "Roberts_1999_Volatility.pdf",
+            "topics": [
+                "quality of democracy",
+                "Latin America",
+                "electoral volatility"
+            ],
+            "abstract": "Analyzes the causes of electoral volatility in Latin American democracies..."
+        },
+        {
+            "id": "paper_008",
+            "title": "What Is Quality of Government? A Theory of Impartial Government Institutions",
+            "authors": [
+                "Rothstein, B.",
+                "Teorell, J."
+            ],
+            "year": 2008,
+            "venue": "Governance",
+            "doi": "10.1111/j.1468-0491.2008.00394.x",
+            "filename": "Rothstein_2008_Impartiality.pdf",
+            "topics": [
+                "quality of democracy",
+                "quality of government",
+                "institutional trust"
+            ],
+            "abstract": "Proposes a theory of quality of government based on the impartiality of institutions..."
+        },
+        {
+            "id": "paper_009",
+            "title": "The Impact of Corruption on Regime Legitimacy: A Comparative Study of Four Latin American Countries",
+            "authors": [
+                "Seligson, M. A."
+            ],
+            "year": 2002,
+            "venue": "The Journal of Politics",
+            "doi": "10.1111/1468-2508.00132",
+            "filename": "Seligson_2002_Corruption.pdf",
+            "topics": [
+                "institutional trust",
+                "corruption",
+                "Latin America",
+                "regime legitimacy"
+            ],
+            "abstract": "Investigates how exposure to corruption affects citizens' belief in the legitimacy of their political system..."
+        },
+        {
+            "id": "paper_010",
+            "title": "The Moral Foundations of Trust",
+            "authors": [
+                "Uslaner, E. M."
+            ],
+            "year": 2002,
+            "venue": "Cambridge University Press",
+            "doi": "10.1017/CBO9780511614754",
+            "filename": "Uslaner_2002_MoralTrust.pdf",
+            "topics": [
+                "institutional trust",
+                "moral trust"
+            ],
+            "abstract": "Argues that trust is a moral value rather than an evaluation based on experience..."
+        },
+        {
+            "id": "paper_011",
+            "title": "Pandemics meet democracy: the footprint of COVID-19 on democratic attitudes",
+            "authors": [
+                "Amat, F."
+            ],
+            "year": 2024,
+            "venue": "Political Science Research and Methods",
+            "doi": "10.1017/psrm.2025.10035",
+            "filename": "Amat_2024_Pandemic.pdf",
+            "topics": [
+                "quality of democracy",
+                "Latin America",
+                "pandemic"
+            ],
+            "abstract": "An analysis of how pandemics impact democratic erosion..."
+        },
+        {
+            "id": "paper_012",
+            "title": "Religion, Sexuality Politics, and the Transformation of Latin American Electorates",
+            "authors": [
+                "Boas, T. C."
+            ],
+            "year": 2020,
+            "venue": "British Journal of Political Science",
+            "doi": "10.1017/S0007123423000613",
+            "filename": "Boas_2020_Religion.pdf",
+            "topics": [
+                "institutional trust",
+                "Latin America",
+                "religion"
+            ],
+            "abstract": "A look at the intersection and impact of religion on politics in Latin America..."
+        },
+        {
+            "id": "paper_013",
+            "title": "Why Populism is the Sugar, Salt, and Fat of Our Politics... with Variations: A Reflection",
+            "authors": [
+                "Corrales, J."
+            ],
+            "year": 2024,
+            "venue": "American Behavioral Scientist",
+            "doi": "10.1177/00027642241268275",
+            "filename": "Corrales_2024_PopulismSugarSaltFat.pdf",
+            "topics": [
+                "quality of democracy",
+                "Latin America",
+                "populism"
+            ],
+            "abstract": "A study on the factors and impacts of populism..."
+        },
+        {
+            "id": "paper_014",
+            "title": "Citizen Participation and Political Trust in Latin America and the Caribbean",
+            "authors": [
+                "Cuesta, M."
+            ],
+            "year": 2024,
+            "venue": "Academic Journal",
+            "doi": "unknown",
+            "filename": "Cuesta_2024_MLTrust.pdf",
+            "topics": [
+                "institutional trust",
+                "machine learning"
+            ],
+            "abstract": "An exploration of how machine learning can assess trust..."
+        },
+        {
+            "id": "paper_015",
+            "title": "Can Citizens Discern? Information Credibility, Political Sophistication, and the Punishment of Corruption in Brazil",
+            "authors": [
+                "Larreguy, H."
+            ],
+            "year": 2020,
+            "venue": "Academic Journal",
+            "doi": "10.1093/ej/ueaa046",
+            "filename": "Larreguy_2020_Accountability.pdf",
+            "topics": [
+                "quality of democracy",
+                "Latin America",
+                "accountability"
+            ],
+            "abstract": "Investigating the mechanisms of political accountability..."
+        },
+        {
+            "id": "paper_016",
+            "title": "Why Latin America's Democracies Are Stuck",
+            "authors": [
+                "Mainwaring, S."
+            ],
+            "year": 2023,
+            "venue": "Journal of Democracy",
+            "doi": "10.1353/jod.2023.0010",
+            "filename": "Mainwaring_2023_DemocraciesStuck.pdf",
+            "topics": [
+                "quality of democracy",
+                "Latin America",
+                "democratic stagnation"
+            ],
+            "abstract": "An analysis of the causes keeping democracies in stagnation..."
+        },
+        {
+            "id": "paper_017",
+            "title": "Quality of Democracy Makes a Difference, but Not for Everyone: How Political Interest, Education, and Conceptions of Democracy Condition the Relationship Between Democratic Quality and Political Trust",
+            "authors": [
+                "Mauk, M."
+            ],
+            "year": 2021,
+            "venue": "Academic Journal",
+            "doi": "10.3389/fpos.2021.637344",
+            "filename": "Mauk_2021_DemocraticQuality.pdf",
+            "topics": [
+                "quality of democracy",
+                "measurement"
+            ],
+            "abstract": "A new framework for evaluating democratic quality..."
+        },
+        {
+            "id": "paper_018",
+            "title": "Political trust and elite closure: Evidence from Latin America",
+            "authors": [
+                "Ortiz-Inostroza, A."
+            ],
+            "year": 2026,
+            "venue": "Academic Journal",
+            "doi": "10.1177/13540688261420740",
+            "filename": "Ortiz-Inostroza_2026_EliteClosure.pdf",
+            "topics": [
+                "quality of democracy",
+                "Latin America",
+                "elites"
+            ],
+            "abstract": "Examining the impact of elite closure on political structures..."
+        },
+        {
+            "id": "paper_019",
+            "title": "Trust in the police in Latin America: A multilevel analysis of institutional and experiential models",
+            "authors": [
+                "Salazar-Tobar, A."
+            ],
+            "year": 2023,
+            "venue": "Academic Journal",
+            "doi": "10.1093/police/paac113",
+            "filename": "Salazar-Tobar_2023_PoliceTrust.pdf",
+            "topics": [
+                "institutional trust",
+                "Latin America",
+                "police"
+            ],
+            "abstract": "A review of factors affecting institutional trust in law enforcement..."
+        },
+        {
+            "id": "paper_020",
+            "title": "Participatory Governance in Latin America",
+            "authors": [
+                "Sanchez-Ancochea, D."
+            ],
+            "year": 2023,
+            "venue": "Academic Journal",
+            "doi": "unknown",
+            "filename": "Sanchez-Ancochea_2023_ParticipatoryGovernance.pdf",
+            "topics": [
+                "quality of democracy",
+                "Latin America",
+                "governance"
+            ],
+            "abstract": "How participatory governance models aim to improve democratic quality..."
+        }
+    ]
+}
