@@ -31,15 +31,27 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 if "query_stats" not in st.session_state:
     st.session_state.query_stats = []
+if "chunk_config" not in st.session_state:
+    st.session_state.chunk_config = "Medium"
 
 @st.cache_resource
-def load_rag_components():
+def load_rag_components(chunk_config="Medium"):
     embedder = Embedder().get_embeddings()
+    # Dynamically select the DB directory based on the setting
+    db_folder = f"faiss_index_{chunk_config.lower()}"
+    active_db_dir = os.path.join(root_dir, db_folder)
+    
     try:
-        vectorstore = ChromaStore(DB_DIR, embedder).load_vectorstore()
+        if not os.path.exists(active_db_dir):
+            print(f"Directory {active_db_dir} not found. Running ingestion logic now...")
+            # Import and trigger the vectorization pipeline automatically so the cloud environment can build it dynamically
+            from src import rag_pipeline
+            rag_pipeline.main()
+            
+        vectorstore = ChromaStore(active_db_dir, embedder).load_vectorstore()
         retriever = Retriever(vectorstore).get_retriever()
     except Exception as e:
-        print(f"Could not load vectorstore (ensure ingestion is run): {e}")
+        print(f"Could not load vectorstore: {e}")
         retriever = None
 
     try:
