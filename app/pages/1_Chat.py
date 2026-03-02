@@ -13,7 +13,7 @@ apply_night_vision()
 from app.Main import load_rag_components, load_catalog, load_prompt
 
 catalog = load_catalog()
-retriever, llm = load_rag_components()
+retriever, llm = load_rag_components(st.session_state.get("chunk_config", "Medium"))
 prompt = load_prompt()
 
 # Sidebar: Search Filters

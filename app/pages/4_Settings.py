@@ -47,7 +47,27 @@ st.toggle(
 
 st.divider()
 
+st.subheader("Chunking Configuration")
+chunk_options = ["Small", "Medium", "Large"]
+
+if "chunk_config" not in st.session_state:
+    st.session_state.chunk_config = "Medium"
+
+selected_chunk = st.selectbox(
+    "Choose Active Chunk Size:", 
+    options=chunk_options,
+    index=chunk_options.index(st.session_state.chunk_config)
+)
+
+if selected_chunk != st.session_state.chunk_config:
+    st.session_state.chunk_config = selected_chunk
+    st.success(f"Chunk size updated to: {selected_chunk}. Generating index cache...")
+    st.cache_resource.clear()
+    st.rerun()
+
+st.divider()
+
 st.subheader("Current Strategy Details")
 st.code(st.session_state.prompt_strategy)
 
-st.info("Additional configurations like Chunk Sizes (256 vs 1024) and Embedder variants are pre-calculated offline during vector generation via `src/rag_pipeline.py`.")
+st.info(f"Currently active chunk size: **{st.session_state.chunk_config}** (pre-calculated offline during vector generation via `src/rag_pipeline.py`).")

@@ -23,42 +23,54 @@ def main():
         data = json.load(f)
 
     extractor = PDFExtractor(papers_dir)
-    # Configuration 1: Small Chunks (256 tokens)
-    # chunker = TokenChunker(chunk_size=256, chunk_overlap=25)
     
-    # Configuration 2: Large Chunks (1024 tokens)
-    chunker = TokenChunker(chunk_size=1024, chunk_overlap=100)
+    chunk_configs = {
+        "Small": {"size": 256, "overlap": 25, "db_dir": os.path.join(root_dir, "faiss_index_small")},
+        "Medium": {"size": 512, "overlap": 50, "db_dir": os.path.join(root_dir, "faiss_index_medium")},
+        "Large": {"size": 1024, "overlap": 100, "db_dir": os.path.join(root_dir, "faiss_index_large")}
+    }
     
-    all_chunks = []
-    
+    # Store pages temporarily to avoid reloading PDFs multiple times
+    pages_cache = {}
     for paper in data.get("papers", []):
         filename = paper.get("filename")
         if not filename: continue
-
-        print(f"Processing ({paper.get('id')}): {filename}")
+        print(f"Reading ({paper.get('id')}): {filename}")
         try:
-            pages = extractor.load_document(filename)
-            
+            pages_cache[paper.get("id")] = extractor.load_document(filename)
+        except Exception as e:
+            print(f" -> Failed to read {filename}: {e}")
+
+    embedder = Embedder()
+
+    for config_name, config_params in chunk_configs.items():
+        print(f"\n--- Processing Configuration: {config_name} ({config_params['size']}/{config_params['overlap']}) ---")
+        chunker = TokenChunker(chunk_size=config_params["size"], chunk_overlap=config_params["overlap"])
+        all_chunks = []
+        
+        for paper in data.get("papers", []):
+            paper_id = paper.get("id")
+            if paper_id not in pages_cache:
+                continue
+                
             base_metadata = {
-                "source": filename,
+                "source": paper.get("filename"),
                 "title": paper.get("title", ""),
-                "id": paper.get("id", ""),
+                "id": paper_id,
                 "year": str(paper.get("year", "")),
                 "authors": ", ".join(paper.get("authors", [])),
-                "doi": paper.get("doi", "unknown")
+                "doi": paper.get("doi", "unknown"),
+                "chunk_size": config_name
             }
             
-            chunks = chunker.chunk_documents(pages, base_metadata=base_metadata)
+            chunks = chunker.chunk_documents(pages_cache[paper_id], base_metadata=base_metadata)
             all_chunks.extend(chunks)
-        except Exception as e:
-            print(f" -> Failed to process {filename}: {e}")
 
-    print(f"\nTotal Chunks: {len(all_chunks)}")
-    print("Vectorizing and saving to vector store...")
-    
-    embedder = Embedder()
-    store = ChromaStore(db_dir, embedder.get_embeddings())
-    store.save_documents(all_chunks)
+        print(f"Total Chunks ({config_name}): {len(all_chunks)}")
+        print(f"Vectorizing and saving to {config_params['db_dir']}...")
+        
+        store = ChromaStore(config_params["db_dir"], embedder.get_embeddings())
+        store.save_documents(all_chunks)
     
     print("\nIngestion pipeline complete!")
 
