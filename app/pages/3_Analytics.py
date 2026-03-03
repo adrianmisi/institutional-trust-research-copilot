@@ -53,8 +53,10 @@ if not full_df.empty:
         
     st.divider()    
     st.markdown("**Token / Query Statistics**")
-    if st.session_state.query_stats:
-        stats_df = pd.DataFrame(st.session_state.query_stats)
+    
+    query_stats = st.session_state.get("query_stats", [])
+    if query_stats:
+        stats_df = pd.DataFrame(query_stats)
         st.dataframe(stats_df, use_container_width=True, hide_index=True)
     else:
         st.info("No queries asked yet. Try using the Chat Interface!")
