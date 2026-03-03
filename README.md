@@ -4,6 +4,7 @@
 **Research Copilot** is a high-performance Retrieval-Augmented Generation (RAG) platform specifically engineered for the synthesis and analysis of **Political Science Literature**, with a focus on institutional trust, quality of democracy, and corruption in Latin America. The system allows researchers to interact with a curated library of 20 specialized papers, enabling deep semantic queries, parameter extraction, and cross-paper methodology comparisons through a professional, academic-grade interface.
 
 **Link to the website hosted on Streamlit:** [Research Copilot - Live Demo](https://institutional-trust-research-copilot-5b9k4uchqqvw8t5zrvrotv.streamlit.app/)
+**Link to the video demonstration:** [Google Drive Video](https://drive.google.com/file/d/1HiiDZBe_FK92KUKx6s0nzt0oKAj4G-0_/view?usp=sharing)
 
 ## 2. Features
 - **Dynamic PDF Ingestion:** Automated text extraction and vectorization using `PyPDFLoader` and `tiktoken`.
