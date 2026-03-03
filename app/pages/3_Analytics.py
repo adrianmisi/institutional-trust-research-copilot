@@ -46,7 +46,7 @@ if not full_df.empty:
         
         chart2 = alt.Chart(topic_counts.head(10)).mark_arc(innerRadius=50).encode(
             theta=alt.Theta("Count:Q"),
-            color=alt.Color("Topic:N", sort='-q'),
+            color=alt.Color("Topic:N", sort=alt.EncodingSortField(field="Count", order="descending")),
             tooltip=['Topic', 'Count']
         ).properties(height=350)
         st.altair_chart(chart2, use_container_width=True)
