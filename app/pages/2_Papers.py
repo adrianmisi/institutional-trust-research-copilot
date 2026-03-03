@@ -53,12 +53,13 @@ if not df.empty:
     for _, row in df.iterrows():
         with st.expander(f"{row.get('title', 'Unknown')} ({row.get('year', 'Unknown')})"):
             authors = row.get('authors', [])
-            st.write(f"**Authors:** {', '.join(authors) if isinstance(authors, list) else authors}")
-            st.write(f"**Venue:** {row.get('venue', 'N/A')}")
-            st.write(f"**DOI:** {row.get('doi', 'N/A')}")
+            st.markdown(f"**Authors:** {', '.join(authors) if isinstance(authors, list) else authors}")
+            st.markdown(f"**Venue:** {row.get('venue', 'N/A')}")
+            st.markdown(f"**DOI:** {row.get('doi', 'N/A')}")
             
             topics = row.get('topics', [])
-            st.write(f"**Topics:** {', '.join(topics) if isinstance(topics, list) else topics}")
-            st.write(f"**Abstract:** {row.get('abstract', 'N/A')}")
+            st.markdown(f"**Topics:** {', '.join(topics) if isinstance(topics, list) else topics}")
+            st.divider()
+            st.markdown(f"**Abstract:** \n\n{row.get('abstract', 'N/A')}")
 else:
     st.write("No papers found in catalog.")

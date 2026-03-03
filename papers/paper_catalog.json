@@ -4,9 +4,9 @@
             "id": "paper_001",
             "title": "The Colonial Origins of Comparative Development: An Empirical Investigation",
             "authors": [
-                "Acemoglu, D.",
-                "Johnson, S.",
-                "Robinson, J. A."
+                "Daron Acemoglu",
+                "Simon Johnson",
+                "James A. Robinson"
             ],
             "year": 2001,
             "venue": "The American Economic Review",
@@ -16,13 +16,13 @@
                 "institutional trust",
                 "natural experiment"
             ],
-            "abstract": "We exploit differences in European mortality rates to estimate the effect of institutions on economic performance..."
+            "abstract": "We exploit differences in European mortality rates to estimate the effect of institutions on economic performance. Europeans adopted very different colonization policies in different colonies, with different associated institutions. In places where Europeans faced high mortality rates, they could not settle and were more likely to set up extractive institutions. These institutions persisted to the present. Exploiting differences in European mortality rates as an instrument for current institutions, we estimate large effects of institutions on income per capita. Once the effect of institutions is controlled for, countries in Africa or those closer to the equator do not have lower incomes."
         },
         {
             "id": "paper_002",
-            "title": "Social and Unsocial Capital: A Review Essay of Robert Putnam's Making Democracy Work",
+            "title": "Social and Unsocial Capital: A Review Essay of Robert Putnam's Making",
             "authors": [
-                "Levi, M."
+                "MARGARET LEVI"
             ],
             "year": 1996,
             "venue": "Politics & Society",
@@ -32,14 +32,14 @@
                 "institutional trust",
                 "social capital"
             ],
-            "abstract": "This essay reviews Robert Putnam's Making Democracy Work..."
+            "abstract": "The text does not contain an explicit abstract. Based on the content of the first page, the article seems to be a review essay by Margaret Levi discussing Robert Putnam's work on social and unsocial capital."
         },
         {
             "id": "paper_003",
-            "title": "Elections Without Democracy: The Rise of Competitive Authoritarianism",
+            "title": "The Rise of Competitive Authoritarianism",
             "authors": [
-                "Levitsky, S.",
-                "Way, L. A."
+                "Steven Levitsky",
+                "Lucan A. Way"
             ],
             "year": 2002,
             "venue": "Journal of Democracy",
@@ -50,14 +50,14 @@
                 "competitive authoritarianism",
                 "Latin America"
             ],
-            "abstract": "In recent years, many regimes have combined democratic rules with authoritarian practices..."
+            "abstract": "The post–Cold War world has been marked by the proliferation of hybrid political regimes. In different ways, and to varying degrees, polities across much of Africa (Ghana, Kenya, Mozambique, Zambia, Zimbabwe), postcommunist Eurasia (Albania, Croatia, Russia, Serbia, Ukraine), Asia (Malaysia, Taiwan), and Latin America (Haiti, Mexico, Paraguay, Peru) combined democratic rules with authoritarian governance during the 1990s. Scholars often treated these regimes as incomplete or transitional forms of democracy. Yet in many cases these expectations (or hopes) proved overly optimistic. Particularly in Africa and the former Soviet Union, many regimes have either remained hybrid or moved in an authoritarian direction. It may therefore be time to stop thinking of these cases in terms of transitions to democracy and to begin thinking about the specific types of regimes they actually are. In recent years, many scholars have pointed to the importance of hybrid regimes. Indeed, recent academic writings have produced a variety of labels for mixed cases, including not only 'hybrid regime' but also 'semidemocracy,' 'virtual democracy,' 'electoral democracy,' 'pseudodemocracy,' 'illiberal democracy,' 'semi-authoritarianism,' 'soft authoritarianism,' 'electoral authoritarianism,' and Freedom House’s 'Partly Free.' Yet much of this literature suffers from two important weaknesses. First, many studies are characterized by a democratizing bias. Analyses frequently treat mixed regimes as partial or 'diminished' forms of democracy, or as undergoing prolonged transitions to democracy. Such characterizations imply that these cases are moving in a democratic direction. Yet as both Jeffrey Herbst and Thomas Carothers have recently argued, this is often not the case. Second, terms like 'semidemocratic,' 'semi-authoritarian,' and 'Partly Free' are often used as residual categories and tend to gloss over important differences among regime types. For example, El Salvador, Latvia, and Ukraine were all hybrid regimes in the early 1990s, and each received a combined political rights and civil liberties score of six—or 'Partly Free'—from Freedom House in 1992–93. Yet these regimes differed in fundamental ways. Whereas in Latvia the principal undemocratic feature was the absence of citizenship rights for people of Russian descent, in El Salvador the main undemocratic features included substantial human rights violations and the absence of civilian control over the military. Ukraine possessed both universal citizenship rights and a civilian-controlled military, but civil liberties were frequently violated and incumbents routinely abused or manipulated democratic procedures. Hence, although each of these cases could be categorized as 'hybrid,' 'semidemocratic,' or 'partly free,' such labels obscure crucial differences—differences that may have important causal implications. Different mixes of authoritarian and democratic features have distinct historical roots, and they may have different implications for economic performance, human rights, and the prospects for democracy. This article examines one particular type of 'hybrid' regime: competitive authoritarianism. In competitive authoritarian regimes, formal democratic institutions are widely viewed as the principal means of obtaining and exercising political authority. Incumbents violate those rules so often and to such an extent, however, that the regime fails to meet conventional minimum standards for democracy. Examples include Croatia under Franjo Tudjman, Serbia under Slobodan Miloševiæ, Russia under Vladimir Putin, Ukraine under Leonid Kravchuk and Leonid Kuchma, Peru under Alberto Fujimori, and post-1995 Haiti, as well as Albania, Armenia, Ghana, Kenya, Malaysia, Mexico, and Zambia through much of the 1990s. Although scholars have characterized many of these regimes as partial or 'diminished' forms of democracy, we agree with Juan Linz that they may be better described as a (diminished) form of authoritarianism."
         },
         {
             "id": "paper_004",
-            "title": "What Are the Origins of Political Trust? Testing Institutional and Cultural Theories in Post-Communist Societies",
+            "title": "What Are the Origins of Political Trust?: Testing Institutional and Cultural Theories in Post-Communist Societies",
             "authors": [
-                "Mishler, W.",
-                "Rose, R."
+                "WILLIAM MISHLER",
+                "RICHARD ROSE"
             ],
             "year": 2001,
             "venue": "Comparative Political Studies",
@@ -67,13 +67,14 @@
                 "institutional trust",
                 "political trust"
             ],
-            "abstract": "Using survey data from post-Communist societies to test theories of political trust..."
+            "abstract": "Popular trust in political institutions is vital to democracy, but in post-Communist countries, popular distrust for institutions is widespread, and prospects for generating increased political trust are uncertain given disagreements over its origins. Cultural theories emphasizing exogenous determinants of trust compete with institutional theories emphasizing endogenous influences, and both can be further differentiated into micro and macro variants. Competing hypotheses drawn from these theories are tested using data from 10 post-Communist countries in Eastern and Central Europe and the former Soviet Union. Aggregate data on economic and political performance are combined with survey data on interpersonal and political trust, political socialization experiences, and individual evaluations of national performance. Results strongly support the superiority of institutional explanations of the origins of political trust, especially micro-level explanations, while providing little support for either micro-cultural or macro-cultural explanations. This encourages cautious optimism about the potential for nurturing popular trust in new democratic institutions."
         },
         {
             "id": "paper_005",
             "title": "Corruption and Trust: Theoretical Considerations and Evidence From Mexico",
             "authors": [
-                "Morris, S. D."
+                "Stephen D. Morris",
+                "Joseph L. Klesner"
             ],
             "year": 2010,
             "venue": "Comparative Political Studies",
@@ -85,13 +86,13 @@
                 "Latin America",
                 "Mexico"
             ],
-            "abstract": "Explores the reciprocal relationship between corruption and trust in Mexico..."
+            "abstract": "The growing empirical literature on political corruption shows trust (interpersonal and political) to be both cause and consequence of corruption: a conclusion that largely builds on studies using cross-national measures of corruption based on perceptions of corruption rather than actual experience, raising questions of endogeneity. The lack of trust fed by corruption is considered critical in that it undermines government efforts to mobilize society to help fight corruption and leads the public to routinely dismiss government promises to fight corruption. After disaggregating the major concepts, this article empirically explores the relationship linking corruption and trust in Mexico based on data from the 2004 Americas Barometer survey. The authors discover a powerful mutual causality between perceptions of corruption and trust in political institutions that suggests that rooting out perceptions of corruption or shoring up trust in public institutions will be an extremely difficult project for anyone who takes on the task."
         },
         {
             "id": "paper_006",
             "title": "Delegative Democracy",
             "authors": [
-                "O'Donnell, G."
+                "Guillermo A. O'Donnell"
             ],
             "year": 1994,
             "venue": "Journal of Democracy",
@@ -101,17 +102,17 @@
                 "quality of democracy",
                 "Latin America"
             ],
-            "abstract": "Examines a new species of democracy found in recently democratized countries, particularly in Latin America..."
+            "abstract": "Here I depict a 'new species,' a type of existing democracies that has yet to be theorized. As often happens, it has many similarities with other, already recognized species, with cases shading off between the former and some variety of the latter. Still, I believe that the differences are significant enough to warrant an attempt at such a depiction. The drawing of neater boundaries between these types of democracy depends on empirical research, as well as more refined analytical work that I am now undertaking. But if I really have found a new species (and not a member of an already recognized family, or a form too evanescent to merit conceptualization), it may be worth exploring its main features. Scholars who have worked on democratic transitions and consolidation have repeatedly said that, since it would be wrong to assume that these processes all culminate in the same result, we need a typology of democracies. Some interesting efforts have been made, focused on the consequences, in terms of types of democracy and policy patterns, of various paths to democratization. My own ongoing research suggests, however, that the more decisive factors for generating various kinds of democracy are not related to the characteristics of the preceding authoritarian regime or to the process of transition. Instead, I believe that we must focus upon various long-term historical factors, as well as the degree of severity of the socioeconomic problems that newly installed democratic governments inherit. Let me briefly state the main points of my argument: 1) Existing"
         },
         {
             "id": "paper_007",
             "title": "Party Systems and Electoral Volatility in Latin America: A Test of Economic, Institutional, and Structural Explanations",
             "authors": [
-                "Roberts, K. M.",
-                "Wibbels, E."
+                "Kenneth M. Roberts",
+                "Erik Wibbels"
             ],
             "year": 1999,
-            "venue": "American Political Science Review",
+            "venue": "The American Political Science Review",
             "doi": "10.2307/2585536",
             "filename": "Roberts_1999_Volatility.pdf",
             "topics": [
@@ -119,17 +120,17 @@
                 "Latin America",
                 "electoral volatility"
             ],
-            "abstract": "Analyzes the causes of electoral volatility in Latin American democracies..."
+            "abstract": "Three different theoretical explanations are tested for the exceptionally high level of electoral volatility found in contemporary Latin America: economic voting, institutional characteristics of political regimes and party systems, and the structure and organization of class cleavages. A pooled cross-sectional time-series regression analysis is conducted on 58 congressional elections and 43 presidential elections in 16 Latin American countries during the 1980s and 1990s. Institutional variables have the most consistent effect on volatility, while the influence of economic performance is heavily contingent upon the type of election and whether the dependent variable is operationalized as incumbent vote change or aggregate electoral volatility. The results demonstrate that electoral volatility is a function of short-term economic perturbations, the institutional fragilities of both democratic regimes and party systems, and relatively fluid cleavage structures."
         },
         {
             "id": "paper_008",
-            "title": "What Is Quality of Government? A Theory of Impartial Government Institutions",
+            "title": "The State and Social Capital: An Institutional Theory of Generalized Trust",
             "authors": [
-                "Rothstein, B.",
-                "Teorell, J."
+                "Bo Rothstein",
+                "Dietlind Stolle"
             ],
             "year": 2008,
-            "venue": "Governance",
+            "venue": "Comparative Politics",
             "doi": "10.1111/j.1468-0491.2008.00394.x",
             "filename": "Rothstein_2008_Impartiality.pdf",
             "topics": [
@@ -137,13 +138,13 @@
                 "quality of government",
                 "institutional trust"
             ],
-            "abstract": "Proposes a theory of quality of government based on the impartiality of institutions..."
+            "abstract": "The Theory of Social Capital: How is social capital generated? A wealth of empirical research shows that social capital is associated with a number of outcomes that for most people are normatively desirable. Among these outcomes are well-performing democratic institutions, personal happiness, optimism and tolerance, economic growth, and democratic stability. However, in this abundance of positive associations between social capital and various social and political outcomes, the sources of social capital often remain undertheorized and empirically unexplored. Social capital has been defined as generalized trust, access to and membership in various types of networks, and norms of reciprocity. The attitudinal aspects of the concept, such as generalized interpersonal trust, are the most important part of social capital. The reason is that individuals can be members of networks that consist of untrustworthy agents, which play a destructive role for the values listed above. There is thus no logical reason why membership in networks per se should be a desired social value. Attitudes of generalized trust extend beyond the boundaries of face-to-face interaction and incorporate people who are not personally known to each other. That citizens in some countries, regions, cities, or villages are able to trust each other and thereby solve many of their collective action problems while others are not turns out to be one of the most interesting puzzles in the social sciences. This article addresses this particular issue in more detail and sketches out a theory of the formation of generalized trust that is embedded in the structure and characteristics of political institutions. In fact, many of the effects that social capital has been shown to have on institutions might be caused as much by the effects of institutional differences on social capital. Thus, this article presents a theory in which the causal logic that has been the established wisdom in most studies of social capital is reversed."
         },
         {
             "id": "paper_009",
             "title": "The Impact of Corruption on Regime Legitimacy: A Comparative Study of Four Latin American Countries",
             "authors": [
-                "Seligson, M. A."
+                "Mitchell A. Seligson"
             ],
             "year": 2002,
             "venue": "The Journal of Politics",
@@ -155,31 +156,34 @@
                 "Latin America",
                 "regime legitimacy"
             ],
-            "abstract": "Investigates how exposure to corruption affects citizens' belief in the legitimacy of their political system..."
+            "abstract": "Economists have long warned about the pernicious impacts of corruption, arguing that it increases transaction costs, reduces investment incentives, and ultimately results in reduced economic growth. Political scientists, on the other hand, ever the realists, have had a much more ambivalent view of the problem. This article uses national sample survey data from four Latin American countries to test the effect of corruption experiences on belief in the legitimacy of the political system. It finds that exposure to corruption erodes belief in the political system and reduces interpersonal trust. The evidence suggests that corruption carries important political costs. The article also discusses the historical context of corruption, its impact on investment and growth, and the changing views on corruption in political science."
         },
         {
             "id": "paper_010",
-            "title": "The Moral Foundations of Trust",
+            "title": "Producing and Consuming Trust",
             "authors": [
-                "Uslaner, E. M."
+                "Eric M. Uslaner"
             ],
-            "year": 2002,
-            "venue": "Cambridge University Press",
+            "year": 2000,
+            "venue": "Political Science Quarterly",
             "doi": "10.1017/CBO9780511614754",
             "filename": "Uslaner_2002_MoralTrust.pdf",
             "topics": [
                 "institutional trust",
                 "moral trust"
             ],
-            "abstract": "Argues that trust is a moral value rather than an evaluation based on experience..."
+            "abstract": "Trust is the chicken soup of social life. It reputedly brings us all sorts of good things-from a willingness to get involved in our communities to higher rates of economic growth, to satisfaction with government performance, to making daily life more pleasant. In a trusting society, ordinary people take active roles in their communities, join voluntary organizations, give to charity, and volunteer their time. An active and engaged citizenry is motivated by a shared sense of common purpose that ultimately helps people find compromises to difficult issues. Trust in other people has fallen dramatically in the United States over the past four decades as Americans have become less engaged in their communities and as compromise in our political life has become more and more elusive. The waning of faith in our fellow citizens is thus cause for great concern. A less trusting society is a less civil society. Like chicken soup, trust appears to work somewhat mysteriously. Somehow we are supposed to develop confidence in people we don't know based upon data that we can't readily get. Trust, according to a Smith Barney television commercial (and most academic accounts), 'must be earned,' since people 'are not born to trust.' We won't trust other people until we decide that they are trustworthy. Trust without evidence makes no sense. Robert Putnam believes that trust in people we know can form the bridge to faith in others we don't know: 'Joiners become more tolerant, less cynical, and more empathetic to the misfortunes of others. When people lack connections to others, they are unable to test the veracity of their own views, whether in the give-and-take of casual conversation or in more formal deliberation. Membership in civic organizations leads people to trust each other. They then extrapolate this faith in people we know to folks we don't know. Modern communitarians such as Putnam see membership in voluntary associations as a kind of holy grail to a trusting community. There is something compelling about this new Tocquevillian perspective: If trust is important and it is in short supply, it would be wonderful to find a way to restore faith in others. But we should be skeptical of magic elixirs such as trust or civic engagement. Trust doesn't solve all of our problems. It is too important for that. Trust is not a catch-all solution to our problems (neither is chicken soup). It does not affect much of what we call 'civic engagement,' especially when people congregate with people very much like themselves. Putting faith in other people helps connect people to folks who are different from themselves. Thus, trusting people feel a common bond with others in the society and believe that discrimination against minorities and women is just not right. They feel moral obligations to help the less fortunate and thus are more likely than mistrusters to give to charity and to volunteer their time. Trusters also realize that it is important for society to be able to reach collective decisions, so they place a high value on compromise and legislative productivity, rather than ideological purity and stalemate. Most of the time, membership in voluntary organizations and informal socializing has no need to tap faith in people who are different from ourselves. We socialize with people we already know. We join bowling leagues with friends or at least people with similar interests and most likely world views. You don't have to be a truster, or an especially nice person, to join a bowling league. There is little evidence and a shaky theoretical foundation for assuming that either."
         },
         {
             "id": "paper_011",
             "title": "Pandemics meet democracy: the footprint of COVID-19 on democratic attitudes",
             "authors": [
-                "Amat, F."
+                "Francesc Amat",
+                "Andreu Arenas",
+                "Albert Falcó-Gimeno",
+                "Jordi Muñoz"
             ],
-            "year": 2024,
+            "year": 2025,
             "venue": "Political Science Research and Methods",
             "doi": "10.1017/psrm.2025.10035",
             "filename": "Amat_2024_Pandemic.pdf",
@@ -188,15 +192,16 @@
                 "Latin America",
                 "pandemic"
             ],
-            "abstract": "An analysis of how pandemics impact democratic erosion..."
+            "abstract": "How did the COVID-19 outbreak affect citizens’ democratic preferences? Were the changes persistent or temporary? We track a representative sample of Spanish citizens before, during, and after the pandemic, with eight survey waves from January 2020 to January 2024. We compare democratic attitudes before and after the pandemic with individual fixed effects models. We identify a sharp increase in preferences for technical rather than ideological policy-making at the very onset of the pandemic, as well as significant changes in voters’ preferences for competent rather than honest politicians. These changes are sudden and persistent over 4 years. Using a set of repeated survey experiments, we also document a widespread willingness to sacrifice rights and freedoms to deal with the pandemic as compared to other global threats, such as international terrorism and climate change. But this effect quickly faded over time. Overall, we identify significant changes in democratic attitudes during the pandemic and a durable shift in technocratic preferences that outlived the pandemic, setting the conditions for the long-term legacies of COVID-19 on democracy."
         },
         {
             "id": "paper_012",
             "title": "Religion, Sexuality Politics, and the Transformation of Latin American Electorates",
             "authors": [
-                "Boas, T. C."
+                "Amy Erica Smith",
+                "Taylor C. Boas"
             ],
-            "year": 2020,
+            "year": 2024,
             "venue": "British Journal of Political Science",
             "doi": "10.1017/S0007123423000613",
             "filename": "Boas_2020_Religion.pdf",
@@ -205,13 +210,13 @@
                 "Latin America",
                 "religion"
             ],
-            "abstract": "A look at the intersection and impact of religion on politics in Latin America..."
+            "abstract": "Right-wing candidates have rallied against same-sex marriage, abortion, and ‘gender ideology’ in several recent Latin American elections, attracting socially conservative voters. Yet, these issues are largely irrelevant to voting decisions in other parts of the region. Drawing on theories explaining partisan shifts in the US and Europe, we argue that elite and social movement debates on sexuality politics create conditions for electoral realignment. When politicians take polarized positions on newly salient ‘culture war’ issues, the masses’ voting behaviour shifts. Using region-wide multilevel analysis of the AmericasBarometer and Latinobarómetro and a conjoint experiment in Brazil, Chile, and Peru, we demonstrate that the rising salience of sexuality politics creates new electoral cleavages, magnifying the electoral impact of religion and sexuality politics attitudes and shrinking the impact of economic views. Whereas scholarship on advanced democracies posits the centrality of partisanship, our findings indicate that sexuality politics prompts realignments even in weak party systems."
         },
         {
             "id": "paper_013",
-            "title": "Why Populism is the Sugar, Salt, and Fat of Our Politics... with Variations: A Reflection",
+            "title": "Why Populism is the Sugar, Salt, and Fat of Our Politics. . . with Variations: A Reflection",
             "authors": [
-                "Corrales, J."
+                "Javier Corrales"
             ],
             "year": 2024,
             "venue": "American Behavioral Scientist",
@@ -222,32 +227,35 @@
                 "Latin America",
                 "populism"
             ],
-            "abstract": "A study on the factors and impacts of populism..."
+            "abstract": "Populism is hard to contain in democracies because it is the sugar, salt, and fat of contemporary politics. I borrow from research on ultraprocessed foods to develop this metaphor. The modern food industry creates ultraprocessed foods by oversupplying naturally occurring macronutrients (sugar, salt, and fat) and recombining them to create new foods that are distortions of the real thing. These new pretend foods are both addictive and toxic. Likewise, I argue that authoritarian-populist leaders take natural tenets of democracy—for example, policies to help the voiceless (sugar), competition against opponents (salt), and reform agenda saturation (fat)—and supply them in combinations and quantities that end up distorting democracy. The result is a new regime that veers easily into authoritarianism (toxicity) while in the process generating hard-core followership (addictiveness). I also discuss the way authoritarian populists from both the left and the right have emulated each other since the 1980s, while introducing their own tweaks to their steals. In the end, despite important differences, both left and right-wing populism are far more similar to each other than they each care to recognize."
         },
         {
             "id": "paper_014",
-            "title": "Citizen Participation and Political Trust in Latin America and the Caribbean",
+            "title": "Citizen Participation and Political Trust in Latin America and the Caribbean: A Machine Learning Approach",
             "authors": [
-                "Cuesta, M."
+                "Natalia Pecorari",
+                "Jose Cuesta"
             ],
-            "year": 2024,
-            "venue": "Academic Journal",
+            "year": 2023,
+            "venue": "Policy Research Working Paper Series",
             "doi": "unknown",
             "filename": "Cuesta_2024_MLTrust.pdf",
             "topics": [
                 "institutional trust",
                 "machine learning"
             ],
-            "abstract": "An exploration of how machine learning can assess trust..."
+            "abstract": "This paper advances the understanding of the linkages between trust in government and citizen participation in Latin America and the Caribbean, using machine learning techniques and Latinobarómetro 2020 data. Proponents of the concept of stealth democracy argue that an inverse relationship exists between political trust and citizen participation, while deliberative democracy theorists claim the opposite. The paper estimates that trust in national governments or other governmental institutions plays neither a dominant nor consistent role in driving political participation. Instead, interest in politics, personal circumstances such as experience of crime and discrimination, and socioeconomic aspects appear to drive citizen participation much more strongly in the Latin America and the Caribbean region. This is true across models imposing simple linear trends (logit and lasso) and others allowing for nonlinear and complex relations (decision trees). The results vary across the type of participation—signing a petition, participation in demonstrations, or involvement in a community issue—which the paper attributes to increasing net costs associated with participation. This paper is a product of the Social Sustainability and Inclusion Global Practice. It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to development policy discussions around the world."
         },
         {
             "id": "paper_015",
-            "title": "Can Citizens Discern? Information Credibility, Political Sophistication, and the Punishment of Corruption in Brazil",
+            "title": "PUBLICISING MALFEASANCE: WHEN THE LOCAL MEDIA STRUCTURE FACILITATES ELECTORAL ACCOUNTABILITY IN MEXICO",
             "authors": [
-                "Larreguy, H."
+                "Horacio Larreguy",
+                "John Marshall",
+                "James M. Snyder, Jr."
             ],
             "year": 2020,
-            "venue": "Academic Journal",
+            "venue": "The Economic Journal",
             "doi": "10.1093/ej/ueaa046",
             "filename": "Larreguy_2020_Accountability.pdf",
             "topics": [
@@ -255,13 +263,14 @@
                 "Latin America",
                 "accountability"
             ],
-            "abstract": "Investigating the mechanisms of political accountability..."
+            "abstract": "Malfeasance in local governments is common in developing democracies. Electoral accountability could mitigate such malfeasance, but may require media market structures that incentivise profit-maximising local media to report on incumbent malfeasance. We test this claim in Mexico, leveraging plausibly exogenous variation in the pre-election release of municipal audits revealing misallocated spending and access to broadcast media. We find that each additional local media station amplifies voter punishment (rewards) of high (zero) malfeasance by up to 1 percentage point. Local media’s accountability-enhancing effects are greater when there are fewer non-local competitors and where local outlets’ audiences principally reside within their municipality. An influential body of scholarship asserts that in democracies: (i) elections are a key institution producing political accountability; (ii) in order for elections to support accountability, voters must be adequately informed; and (iii) mass media play an essential role in informing voters (e.g., Ashworth, 2012). An important application of this accountability dynamic is the electoral sanctioning of malfeasant behaviour, including corruption and the illegal diversion of funds away from intended projects. Such malfeasance is prevalent in developing democracies (e.g., Mauro, 1995; Treisman, 2007), where voters are often poorly informed about the government’s responsibilities and actions (e.g., Keefer, 2007; Pande, 2011), despite growing media markets. Although the media generally cover national malfeasance revelations (e.g., Puglisi and Snyder, 2011), incentives for profit-maximising media outlets to inform voters about local malfeasance may be weaker. In this article, we examine whether and under what conditions broadcast media stations enable voters to hold their local government to account by publicising malfeasance in office."
         },
         {
             "id": "paper_016",
             "title": "Why Latin America's Democracies Are Stuck",
             "authors": [
-                "Mainwaring, S."
+                "Scott Mainwaring",
+                "Aníbal Pérez-Liñán"
             ],
             "year": 2023,
             "venue": "Journal of Democracy",
@@ -272,32 +281,33 @@
                 "Latin America",
                 "democratic stagnation"
             ],
-            "abstract": "An analysis of the causes keeping democracies in stagnation..."
+            "abstract": "From 1990 until the early 2010s, the big challenge facing democracy in most Latin American countries was its mediocre quality. In recent years, unfortunately, this situation has eroded, and Latin America is now contributing to the global decline of democracy. Across the region as a whole, democracy is in worse shape than it has been at any time since the late 1980s. Democratic stagnation with great deficits in democratic quality remains the most common situation, and where there has been marked change since 2002, it has been negative. Six countries have experienced democratic breakdowns or erosions, without a single clear case of democratic deepening to offset these declines. Venezuela and Nicaragua now have full-blown, highly repressive authoritarian regimes, joining the ranks of Cuba. Democracy has eroded in Brazil and Mexico, the region’s two largest countries, and El Salvador has devolved into a competitive authoritarian regime under President Nayib Bukele since his election in 2019. No country in the region has experienced meaningful democratic deepening since the Peruvian restoration of democracy in 2001, although Ecuador, in the aftermath of Lenín Moreno’s 2017 presidential victory, did recover the mediocre level of democracy that it had enjoyed from 1980 until the 2007 election to the presidency of Rafael Correa. Cases of erosion or breakdown punctuate an overall atmosphere of democratic stagnation. What do we mean by that term? The region’s stagnant democracies (or semidemocracies) struggle with important and persistent democratic deficits that hold them back from becoming more solidly liberal democracies. In recent years, many scholars have written about executive takeovers and democratic backsliding, but few have discussed how the vast majority of countries in the “third wave” of democratization seem unable to make the move to higher-quality democracy. Instead, they stall out as low-grade democracies with major democratic deficits. Why is democratic deepening so hard and stagnation so common? We see three reasons. First, powerful groups such as organized criminal networks, unreformed police forces, and interests that belonged to the old authoritarian ruling coalition stand in the way. They have no wish to see citizens’ rights protected, elections made more free and fair, executive power restrained, or armed actors such as paramilitaries or drug-cartel enforcers curbed or eliminated. Second, poor governance results in most Latin American countries have fueled dissatisfaction with democracy, paving the way for authoritarian populists who rail against a failed establishment. Third, what we call “hybrid states” violate citizens’ rights, fail to provide citizen security and quality public services, and are partly captured by powerful state actors, politicians, and private interests that do not want to build more effective states based on the rule of law. Hybrid states combine some sectors of bureaucratic efficiency and innovation with others marked by corruption, patrimonialism, inefficiency, and authoritarianism. Together, coercive actors, poor results, and hybrid states have weakened citizens’ commitment to democracy. This sets the stage for democratic stagnation and backsliding."
         },
         {
             "id": "paper_017",
             "title": "Quality of Democracy Makes a Difference, but Not for Everyone: How Political Interest, Education, and Conceptions of Democracy Condition the Relationship Between Democratic Quality and Political Trust",
             "authors": [
-                "Mauk, M."
+                "Marlene Mauk"
             ],
             "year": 2021,
-            "venue": "Academic Journal",
+            "venue": "Frontiers in Political Science",
             "doi": "10.3389/fpos.2021.637344",
             "filename": "Mauk_2021_DemocraticQuality.pdf",
             "topics": [
                 "quality of democracy",
                 "measurement"
             ],
-            "abstract": "A new framework for evaluating democratic quality..."
+            "abstract": "In light of recent crises, citizen trust in the political system has been highlighted as crucial for democracy. This paper explores how democratic quality influences political trust, mediated by citizens' evaluations of democratic performance. Using data from the World Values Survey and V-Dem project, the study shows that democratic quality indirectly affects political trust, with a stronger impact on citizens with higher political interest, education, and liberal conceptions of democracy."
         },
         {
             "id": "paper_018",
             "title": "Political trust and elite closure: Evidence from Latin America",
             "authors": [
-                "Ortiz-Inostroza, A."
+                "Camila Ortiz-Inostroza",
+                "Matías Bargsted"
             ],
             "year": 2026,
-            "venue": "Academic Journal",
+            "venue": "Party Politics",
             "doi": "10.1177/13540688261420740",
             "filename": "Ortiz-Inostroza_2026_EliteClosure.pdf",
             "topics": [
@@ -305,16 +315,17 @@
                 "Latin America",
                 "elites"
             ],
-            "abstract": "Examining the impact of elite closure on political structures..."
+            "abstract": "We examine how the degree of social closure among political elites shapes mass-level political trust in Latin America, a region marked by historically closed elites and persistently low trust. Building on contrasting perspectives, we argue that elite closure undermines citizens’ trust, but its influence also depends on a country’s long-term patterns of closure. In contexts where elites have been highly closed over time, further increases are expected to erode trust. In more open systems, by contrast, closure may be positively associated. Our analysis combines LAPOP data (2004–2018) with PELA-USAL elite indicators in a large-N comparative framework. Estimates from hierarchical models indicate that elite closure—characterized by legislative re-election rates and family ties in politics—significantly reduces political trust. However, these results are heterogeneous: rising closure erodes trust only in countries where elites have historically been highly closed, highlighting the context-dependent role of elite composition in shaping citizens’ political trust."
         },
         {
             "id": "paper_019",
             "title": "Trust in the police in Latin America: A multilevel analysis of institutional and experiential models",
             "authors": [
-                "Salazar-Tobar, A."
+                "Felipe Salazar-Tobar",
+                "Andres F. Rengifo"
             ],
             "year": 2023,
-            "venue": "Academic Journal",
+            "venue": "Policing",
             "doi": "10.1093/police/paac113",
             "filename": "Salazar-Tobar_2023_PoliceTrust.pdf",
             "topics": [
@@ -322,16 +333,16 @@
                 "Latin America",
                 "police"
             ],
-            "abstract": "A review of factors affecting institutional trust in law enforcement..."
+            "abstract": "This paper explores two models of preference-formation of trust in the police in Latin America and the Caribbean: An institutional model that highlights the role of broad assessments of government performance and legitimacy and an experiential approach focussed on more narrow experiences of victimization and police contact. We examine these frameworks based on theory and analysis of administrative data and surveys from the Americas Barometer 2014 (N  = 34,798 respondents T  = 22 countries). Findings show that respondents with higher confidence in their government also indicate higher ratings of trust in the police. Similarly, trust is higher among individuals who had not experienced victimization or bribery or who anticipated faster police response times. At the country level, our results suggest that trust is negatively related to economic development but positively related to rule of law. We draw on these findings to outline an integrative model that combines both institutional and experiential perspectives."
         },
         {
             "id": "paper_020",
-            "title": "Participatory Governance in Latin America",
+            "title": "Shaping Political Trust Through Participatory Governance in Latin America",
             "authors": [
-                "Sanchez-Ancochea, D."
+                "Tesalia Rizzo"
             ],
-            "year": 2023,
-            "venue": "Academic Journal",
+            "year": 2021,
+            "venue": "Inter-American Development Bank",
             "doi": "unknown",
             "filename": "Sanchez-Ancochea_2023_ParticipatoryGovernance.pdf",
             "topics": [
@@ -339,7 +350,7 @@
                 "Latin America",
                 "governance"
             ],
-            "abstract": "How participatory governance models aim to improve democratic quality..."
+            "abstract": "This work explores the concept of shaping political trust through participatory governance in Latin America. It discusses the political aspects of trust, political participation, public institutions, transparency in government, and public administration in the context of citizen participation. The technical note provides insights into how participatory governance can influence political trust in the region. The opinions expressed in this publication are those of the author and do not necessarily reflect the views of the Inter-American Development Bank, its Board of Directors, or the countries they represent."
         }
     ]
 }
