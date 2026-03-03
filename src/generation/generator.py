@@ -10,7 +10,14 @@ class Generator:
     def get_llm(self):
         # Assumes OPENAI_API_KEY is set in the environment or Streamlit secrets
         api_key = os.environ.get("OPENAI_API_KEY")
-        if not api_key and "OPENAI_API_KEY" in st.secrets:
-            api_key = st.secrets["OPENAI_API_KEY"]
+        if not api_key:
+            try:
+                # Safely attempt to get from secrets
+                api_key = st.secrets.get("OPENAI_API_KEY")
+            except Exception:
+                pass
+                
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY could not be found in environment variables or Streamlit secrets.")
             
         return ChatOpenAI(model=self.model_name, temperature=0.0, api_key=api_key)

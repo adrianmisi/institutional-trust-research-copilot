@@ -20,7 +20,8 @@ from langchain_core.prompts import PromptTemplate  # noqa: E402
 from langchain_core.runnables import RunnablePassthrough  # noqa: E402
 from langchain_core.output_parsers import StrOutputParser  # noqa: E402
 
-load_dotenv()
+env_path = os.path.join(root_dir, ".env")
+load_dotenv(dotenv_path=env_path)
 
 DB_DIR = os.path.join(root_dir, "faiss_index")
 PROMPT_FILE = os.path.join(root_dir, "prompts", "v1_delimiters.txt")
@@ -57,6 +58,7 @@ def load_rag_components(chunk_config="Medium"):
     try:
         llm = Generator(model_name="gpt-3.5-turbo").get_llm()
     except Exception as e:
+        print(f"Failed to initialize LLM: {str(e)}")
         llm = None
     return retriever, llm
 
@@ -98,5 +100,21 @@ This application acts as an expert academic assistant over a knowledge base of 2
 - **⚙️ Settings:** Swap prompt templates on the fly!
 """)
 
-if not load_rag_components()[1]:
-    st.sidebar.warning("⚠️ Open AI Key missing. Responses not generated.")
+# Initialize LLM error state
+if "llm_error" not in st.session_state:
+    st.session_state.llm_error = None
+
+# We must intercept the error from load_rag_components
+retriever, llm = load_rag_components(st.session_state.chunk_config)
+
+if not llm:
+    # Safely try to get the instantiation error to display to the user
+    try:
+        from src.generation.generator import Generator
+        Generator(model_name="gpt-3.5-turbo").get_llm()
+    except Exception as e:
+        st.session_state.llm_error = str(e)
+        
+    error_msg = st.session_state.llm_error if st.session_state.llm_error else "Unknown error"
+    st.sidebar.error(f"⚠️ LLM Offline: {error_msg}")
+    st.sidebar.info("Check Streamlit Secrets formatting. It must be: OPENAI_API_KEY=\"sk-...\"")
