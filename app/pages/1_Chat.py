@@ -54,8 +54,21 @@ if question := st.chat_input("Ask a question about your academic dataset..."):
             
         message_placeholder = st.empty()
         
+        search_query = question
+        if llm:
+            with st.spinner("Translating query for semantic search..."):
+                try:
+                    from langchain_core.messages import SystemMessage, HumanMessage
+                    res = llm.invoke([
+                        SystemMessage(content="You are a search query translator. Translate the following user query to English so it can be used to search an English-only vector database. Return ONLY the English translation, without quotes or additional text. If it is already in English, just return it exactly."),
+                        HumanMessage(content=question)
+                    ])
+                    search_query = res.content.strip()
+                except Exception:
+                    pass
+
         with st.spinner("Retrieving relevant context..."):
-            docs = retriever.invoke(question)
+            docs = retriever.invoke(search_query)
             
         # Filter context implicitly based on Sidebar Feature 5
         filtered_docs = []
@@ -97,14 +110,15 @@ if question := st.chat_input("Ask a question about your academic dataset..."):
                  source_section += f"- *{t}*\n"
 
         if llm is not None:
-            with st.spinner("Generating answer via LLM..."):
+                augmented_question = question + "\n\n(IMPORTANT: Please reply in the exact same language as this question.)"
+                
                 rag_chain = (
                     {"context": lambda x: context_text, "question": RunnablePassthrough()}
                     | prompt
                     | llm
                     | StrOutputParser()
                 )
-                full_response = rag_chain.invoke(question)
+                full_response = rag_chain.invoke(augmented_question)
                 
                 # Check for v2 structured JSON string explicitly because it outputs a dict format as text
                 if 'prompt_strategy' in st.session_state and st.session_state.prompt_strategy == 'v2_json_output.txt':
