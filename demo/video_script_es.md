@@ -24,15 +24,15 @@ Esos textos se incrustan utilizando los modelos de OpenAI y se almacenan en una 
 **Tú:** "Ahora les mostraré cómo funciona en vivo a través de nuestra interfaz web."
 
 **(Acción 1: Pregunta Factual Simple)**
-*Escribe: "¿Cuál es el argumento principal de Acemoglu, Johnson y Robinson (2001) sobre los orígenes coloniales?"*
+*Escribe: "What is the main argument made by Acemoglu, Johnson, and Robinson (2001) regarding colonial origins?"*
 **Tú:** "Primero, le haré una pregunta factual simple de nuestro catálogo. Como podemos ver, el asistente extrae el argumento clave sobre las tasas de mortalidad y los patrones de asentamiento, proporcionando instantáneamente la cita APA exacta debajo."
 
 **(Acción 2: Pregunta Compleja/Múltiples Fuentes)**
-*Escribe: "¿Cómo se comparan los hallazgos de Morris sobre la corrupción en México con la teoría sobre la confianza institucional general?"*
+*Escribe: "How do Morris's findings on corruption in Mexico compare to the general theory of institutional trust?"*
 **Tú:** "A continuación, vamos con una pregunta que requiere síntesis de múltiples documentos. El sistema ahora está agrupando el contexto de diferentes documentos para explicar la relación negativa entre la corrupción y la confianza, citando los artículos específicos involucrados."
 
 **(Acción 3: Pregunta Fuera de Contexto)**
-*Escribe: "¿Qué opina el autor sobre la mecánica cuántica?"*
+*Escribe: "What does the author think about quantum mechanics?"*
 **Tú:** "Finalmente, si pregunto algo fuera del alcance como la física, el modelo se adhiere estrictamente a nuestros límites de Prompt Engineering y responde que no lo sabe para evitar alucinaciones."
 
 **(Acción 4: Filtros y Catálogo)**
